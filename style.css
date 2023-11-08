@@ -192,6 +192,7 @@ footer{
 }
 
 #check_menu:checked~.nav-links{
+    z-index: 1;
     background-color: #1b3039cc;
     width: 50%;
     height: 50vh;
