@@ -272,14 +272,16 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background: url(./imagenes/fondo2.avif);
+    background: url(./imagenes/1330715.png);
     background-size: cover;
     background-position: center;  
 }
 
 .cursos_container h1{
+    margin: 20px;
     font-size: 40px;
     font-weight: 900;
+    color: #eceff1;
 }
 
 .cursos{
@@ -297,7 +299,7 @@ footer{
 }
 
 .cursos:hover{
-    background-color: #ffbc0e;
+    background-color: silver;
     transform: scale(1.1);
 }
 
