@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap style-->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!--custom style-->
     <link rel="stylesheet" href="style.css">
     <title>OuterHeaven</title>
 </head>
@@ -19,12 +22,37 @@
                 <li> <a href="index.html">Inicio</a></li>
                 <li> <a href="bio.html">Bio</a></li>
                 <li> <a href="galeria.html">Galeria</a></li>
-                <li> <a href="cursos.html">cursos</a></li>
+                <li> <a href="cursos.html">Cursos</a></li>
                 <li> <a href="contacto.html">Contacto</a></li>
             </ul>
             <label for="check_menu"><img class="boton_hamburgesa" src="./assets/Menu-hamburgesa.png"></img></label>
         </nav>
     </header>
+    <main>
+        <!--carousel bootstrap-->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/photo6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/photo5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/photo16.webp" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </main>
     <footer>
         <img src="./assets/logo.png" class="logo-footer" alt="">
         <div class="social-icon-container">

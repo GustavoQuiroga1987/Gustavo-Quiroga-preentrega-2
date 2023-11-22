@@ -383,3 +383,95 @@ footer{
         width: 75%;
     }
 }
+
+/*Contacto*/
+
+.fondo-contacto{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./imagenes/1330715.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+}
+
+.form-registro{
+    width: 70%;
+    background-color: #1b3039;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.registro{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ffbc0e;
+    font-size: 18px;
+    color: white;
+}
+
+.form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .boton-registro{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/*media formulario*/
+
+@media(max-width:800px){
+    .form-registro{
+        width: 100%;
+    }
+    .form-registro p , a{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:500px){
+    .form-registro{
+            width: 150%;
+            margin: 0;
+            align-self: center;
+    }
+    .form-registro p , a{
+        font-size: 12px;
+    }
+        
+
+}
