@@ -1,0 +1,156 @@
+
+/*Media Boton Hamburgesa*/
+@media(max-width:830px){
+    .header{
+    .boton_hamburgesa{
+        display: block;
+    }
+}
+    .nav-links{
+        display: none;
+    }
+}
+
+/*Media Main Index*/
+@media(max-width:800px){
+    .contenidoPrincipal{
+    .tituloPrincipal{
+        height: 3rem;
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .textoPrincipal{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+}
+
+/*Media Footer*/
+@media(max-width:450px){
+    .social-icon-container{
+    .social-icon{
+        height: 25px;
+        width: 25px;
+    }
+}
+}
+
+
+/*Media Galeria*/
+
+@media(max-width:800px){
+    .row{
+    .column{
+        flex: 50%;
+    }
+    }
+}
+
+@media(max-width:600px){
+    .row{
+    .column{
+        flex: 100%;
+    }
+}
+}
+
+/*Media Cursos*/
+
+@media(max-width:800px){
+    .cursos_container{
+    .cursos{
+        width: 80%;
+        display: grid;
+        background-color: #1b30397c;
+        margin: 1.5rem;
+        border-radius: 5%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 70px 300px 300px 100px;
+        grid-template-areas: 
+        "titulo titulo"
+        "video video"
+        "descripcion descripcion"
+        "none anotate";
+
+        @media(max-width:800px)and (min-width:600px){
+            .curso_img{
+                width: 80%;
+                height: 100%;
+                margin-left: 3rem; 
+            }
+        }
+
+        .curso_titulo{
+            font-size: 1.3rem;
+            margin-top: 1rem;
+        }
+
+        .curso_anotate{
+            width: 75%;
+        }
+    }
+}
+}
+
+/*Media Contacto*/
+
+@media(max-width:850px){
+    .fondo-contacto{
+        .form-registro{
+            width: 100%;
+            p,a{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media(max-width:550px){
+    .fondo-contacto{
+        .form-registro{
+            width: 150%;
+            margin: 0;
+            align-self: center;
+            p , a{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+/*Media Bio*/
+
+@media(max-width:800px){
+    .info{
+        height: 700px;
+    }
+    .info2{
+        height: 700px;
+    }
+}
+
+@media(max-width:600px){
+    .fondo-mision{
+        height: 600px;
+
+        p{
+            font-size: 18px;
+        }
+    }
+    .info{
+        height: 800px; 
+
+        p{
+            font-size: 18px;
+        }
+    }
+    .info2{
+        height: 800px;
+
+        p{
+            font-size: 18px;
+        }
+    }
+}
