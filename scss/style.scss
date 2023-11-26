@@ -2,12 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 @import "./partials/reset";
+@import"./partials/variables";
+@import"./partials/boton";
 
+/*Index*/
 
 /*Navbar*/
 
 .header{
-    background-color: #1b3039;
+    background-color: $colorMenu;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +43,7 @@
             text-decoration: none;
         }
         a:hover{
-            color:#ffbc0e
+            color:$colorHover
         }
     }
 
@@ -62,7 +65,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../imagenes/1330715.png);
+    background-image: $backgroundPrincipal;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -108,7 +111,7 @@
     }
 
     .button:hover{
-        background-color: #ffbc0e;
+        background-color: $colorHover;
     }
     
 }
@@ -118,7 +121,7 @@
 footer{
     width: 100%;
     padding: 2rem 8%;
-    background-color: #1b3039;
+    background-color: $colorMenu;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,7 +182,7 @@ footer{
 /*Boton Hamburgesa*/
 #check_menu:checked~.nav-links{
     z-index: 1;
-    background-color: #1b3039cc;
+    background-color:$colorBotonHamburgesa;
     width: 50%;
     height: 50vh;
     position: absolute;
@@ -219,7 +222,7 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background: url(../imagenes/1330715.png);
+    background: $backgroundPrincipal;
     background-size: cover;
     background-position: center;  
 
@@ -281,7 +284,7 @@ footer{
             text-decoration: none;
             display: inline-block;
             font-weight: 700;
-            color: #1b3039;
+            color: $colorMenu;
             padding: 9px 20px;
             background: #eceff1;
             border: none;
@@ -299,7 +302,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../imagenes/1330715.png);
+    background-image: $backgroundPrincipal;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -308,14 +311,14 @@ footer{
 
     .form-registro{
         width: 70%;
-        background-color: #1b3039;
+        background-color: $colorMenu;
         padding: 30px;
         margin: auto;
         border-radius: 4px;
         color: white;
         box-shadow: 7px 13px 37px #000;
 
-        h4{
+        h1{
             font-size: 22px;
             margin-bottom: 20px;
         }
@@ -327,7 +330,7 @@ footer{
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 16px;
-        border: 1px solid #ffbc0e;
+        border: 1px solid $colorHover;
         font-size: 18px;
         color: white;
     }
@@ -347,7 +350,7 @@ footer{
             }
         }
 
-        .boton-registro{
+        /*.boton-registro{
             width: 100%;
             background: #1f53c5;
             border: none;
@@ -355,7 +358,7 @@ footer{
             color: white;
             margin: 16px 0;
             font-size: 16px;
-        }
+        }*/
     
 }
 }
@@ -375,7 +378,7 @@ footer{
     height: 400px;
     background-image: url(../imagenes/photo10.webp);
 
-    h2{
+    h1{
         color: white;
     }
 }
@@ -435,6 +438,7 @@ footer{
         font-size: 22px;
     }
 }
+
 
 
 @import "./partials/queries"

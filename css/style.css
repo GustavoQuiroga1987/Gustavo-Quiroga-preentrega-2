@@ -9,6 +9,31 @@
   font-size: 20px;
 }
 
+/*Paleta Colores*/
+/*Fondos*/
+/*Paleta Colores*/
+/*Fondos*/
+.btn-primary {
+  background-color: #ffbc0e;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.btn-secundary {
+  background-color: #1f53c5;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/*Index*/
 /*Navbar*/
 .header {
   background-color: #1b3039;
@@ -280,8 +305,17 @@ footer .copyright {
   border-radius: 4px;
   color: white;
   box-shadow: 7px 13px 37px #000;
+  /*.boton-registro{
+      width: 100%;
+      background: #1f53c5;
+      border: none;
+      padding: 12px;
+      color: white;
+      margin: 16px 0;
+      font-size: 16px;
+  }*/
 }
-.fondo-contacto .form-registro h4 {
+.fondo-contacto .form-registro h1 {
   font-size: 22px;
   margin-bottom: 20px;
 }
@@ -309,15 +343,6 @@ footer .copyright {
   color: white;
   text-decoration: underline;
 }
-.fondo-contacto .form-registro .boton-registro {
-  width: 100%;
-  background: #1f53c5;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
-}
 
 /*Bio*/
 .fondo-bio {
@@ -332,7 +357,7 @@ footer .copyright {
   height: 400px;
   background-image: url(../imagenes/photo10.webp);
 }
-.fondo-bio h2 {
+.fondo-bio h1 {
   color: white;
 }
 

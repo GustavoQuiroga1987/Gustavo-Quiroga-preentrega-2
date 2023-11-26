@@ -1,0 +1,18 @@
+@import "variables";
+
+$colors:(
+    primary:$colorHover,
+    secundary:$colorCeleste
+);
+
+@each $i, $color in $colors{
+    .btn-#{$i}{
+        background-color:$color;
+        width: 100%;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+}
