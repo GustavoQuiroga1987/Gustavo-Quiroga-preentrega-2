@@ -199,6 +199,14 @@ footer{
 
 /*Galeria*/
 
+.tituloGaleria{
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    align-self: center;
+    color: $colorMenu;
+}
+
 .row{
     width: 100%;
     display: flex;
@@ -353,16 +361,6 @@ footer{
                 text-decoration: underline;
             }
         }
-
-        /*.boton-registro{
-            width: 100%;
-            background: #1f53c5;
-            border: none;
-            padding: 12px;
-            color: white;
-            margin: 16px 0;
-            font-size: 16px;
-        }*/
     
 }
 }
@@ -401,6 +399,7 @@ footer{
 
     p{
         font-size: 25px;
+        font-weight: 400;
         color: black;
         padding: 50px;
     }

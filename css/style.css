@@ -33,8 +33,6 @@
   font-size: 16px;
 }
 
-
-
 /*Index*/
 /*Navbar*/
 .header {
@@ -199,6 +197,14 @@ footer .copyright {
 }
 
 /*Galeria*/
+.tituloGaleria {
+  margin: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  align-self: center;
+  color: #1b3039;
+}
+
 .row {
   width: 100%;
   display: flex;
@@ -307,15 +313,6 @@ footer .copyright {
   border-radius: 4px;
   color: white;
   box-shadow: 7px 13px 37px #000;
-  /*.boton-registro{
-      width: 100%;
-      background: #1f53c5;
-      border: none;
-      padding: 12px;
-      color: white;
-      margin: 16px 0;
-      font-size: 16px;
-  }*/
 }
 .fondo-contacto .form-registro h1 {
   font-size: 22px;
@@ -377,6 +374,7 @@ footer .copyright {
 }
 .fondo-mision p {
   font-size: 25px;
+  font-weight: 400;
   color: black;
   padding: 50px;
 }
