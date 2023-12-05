@@ -83,7 +83,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../imagenes/1330715.png);
+  background-image: url(../imagenes/background.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -228,7 +228,7 @@ footer .copyright {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background: url(../imagenes/1330715.png);
+  background: url(../imagenes/background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -298,7 +298,7 @@ footer .copyright {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../imagenes/1330715.png);
+  background-image: url(../imagenes/background.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
